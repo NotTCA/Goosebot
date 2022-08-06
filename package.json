@@ -1,0 +1,34 @@
+{
+  "name": "goosebot",
+  "version": "1.0.0",
+  "description": "A simple Discord bot that sends you goose pictures.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node .",
+    "dev": "nodemon ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TCATech/Goosebot.git"
+  },
+  "author": "TCA Tech",
+  "contributors": [
+    "Not TCA"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/TCATech/Goosebot/issues"
+  },
+  "homepage": "https://github.com/TCATech/Goosebot#readme",
+  "dependencies": {
+    "@discordjs/rest": "^1.0.1",
+    "discord-api-types": "^0.37.1",
+    "discord.js": "^14.1.2",
+    "dotenv": "^16.0.1",
+    "enmap": "^5.9.0",
+    "request": "^2.88.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.19"
+  }
+}
