@@ -11,7 +11,7 @@ const client = new Discord.Client({
     activities: [
       {
         name: "with geese",
-        type: "Playing",
+        type: Discord.ActivityType.Playing,
       },
     ],
   },
