@@ -11,10 +11,7 @@
     "type": "git",
     "url": "git+https://github.com/TCATech/Goosebot.git"
   },
-  "author": "TCA Tech",
-  "contributors": [
-    "Not TCA"
-  ],
+  "author": "Not TCA",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/TCATech/Goosebot/issues"
