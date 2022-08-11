@@ -19,8 +19,6 @@ client.on("messageCreate", async (message) => {
 
   const [, mPrefix] = message.content.match(prefixRegex);
 
-  message.color = client.config.color;
-
   const [cmd, ...args] = message.content
     .slice(mPrefix.length)
     .trim()
