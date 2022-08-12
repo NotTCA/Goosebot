@@ -28,6 +28,8 @@ client.settings = new Enmap({
   dataDir: "./databases/settings",
 });
 
+client.categories = require("fs").readdirSync("./commands/");
+
 Array("commands", "events").forEach((handler) => {
   require(`./handlers/${handler}`)(client);
 });
