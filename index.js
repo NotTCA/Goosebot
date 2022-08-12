@@ -22,6 +22,7 @@ module.exports = client;
 
 client.config = require("./config.json");
 client.commands = new Discord.Collection();
+client.slashCommands = new Discord.Collection();
 
 client.settings = new Enmap({
   name: "settings",
@@ -30,7 +31,7 @@ client.settings = new Enmap({
 
 client.categories = require("fs").readdirSync("./commands/");
 
-Array("commands", "events").forEach((handler) => {
+Array("commands", "events", "slashCommands").forEach((handler) => {
   require(`./handlers/${handler}`)(client);
 });
 
