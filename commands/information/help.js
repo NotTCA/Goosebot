@@ -106,7 +106,7 @@ module.exports = {
         })
         .setColor(client.config.color)
         .setDescription(
-          `To see more information for a specific command, type: \`${client.config.prefix}help [command]\`.`
+          `To see more information for a specific command, type: \`${message.prefix}help [command]\`.`
         )
         .setThumbnail(client.user.displayAvatarURL());
       const commands = (category) => {
