@@ -43,9 +43,6 @@ module.exports = {
             .setColor("RED"),
         ],
       });
-    client.settings.ensure(message.guild.id, {
-      prefix: client.config.prefix,
-    });
 
     client.settings.set(message.guild.id, args[0], "prefix");
 
