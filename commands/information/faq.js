@@ -25,7 +25,7 @@ module.exports = {
             },
             {
               name: "How can I get a goose image?",
-              value: `It's simple. Just use the \`${message.prefix}goose\` command.`,
+              value: `It's simple. Just use the </goose:1007454174151196712> command.`,
             },
             {
               name: "Why?",
